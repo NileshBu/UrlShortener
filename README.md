@@ -8,7 +8,7 @@ Use Swagger or Postman to make REST calls e.g. http://localhost:8080/'name of th
 **HOW TO USE**
 
 1.) **WITH DOCKER**  : The image is available on Docker Hub. 
-( docker run -p 8080:8080 -t bukane/urlshortner-api )
+( docker pull bukane/urlshortner-api:final )
 
 2.) **WITH GIT** :
 https://github.com/NileshBu/UrlShortener.git
