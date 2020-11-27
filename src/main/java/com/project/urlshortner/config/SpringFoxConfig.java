@@ -25,7 +25,7 @@ public class SpringFoxConfig {
   private ApiInfo apiInfo() {
     return new ApiInfo(
         "URI PROCESS REST API",
-        "Service for processing the URI's ",
+        "Service for processing the Long URI's to short URI ",
         "API TOS",
         "Terms of service",
         new Contact(" Nilesh Bukane", "", "bukanenilesh@gmail.com"),
