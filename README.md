@@ -8,10 +8,14 @@ Use Swagger or Postman to make REST calls e.g. http://localhost:8080/'name of th
 **HOW TO USE**
 
 1.) **WITH DOCKER**  : The image is available on Docker Hub. 
-docker run -p 8080:8080 -t urlshortner-api;
+( docker run -p 8080:8080 -t bukane/urlshortner-api )
 
 2.) **WITH GIT** :
 https://github.com/NileshBu/UrlShortener.git
+
+
+**REQUIREMENTS**
+Java 13 
 
 **BASIC GUIDE TO THE SERVICE**
 1.) Use the Endpoint (Create Short URL) http://localhost:8080/api/createShortUrl for generating a 
